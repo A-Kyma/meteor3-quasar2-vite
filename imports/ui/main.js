@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor'
 import { createApp } from 'vue'
 import { VueMeteor } from 'vue-meteor-tracker'
+import {Bk,BkUI} from 'meteor/akyma:bk'
 
 import App from './App.vue'
 import { router } from './router'
@@ -19,6 +20,8 @@ Meteor.startup(() => {
 
   app.use(router)
   app.use(VueMeteor)
+  app.use(Bk)
+  app.use(BkUI)
   app.use(Quasar, {
     plugins: {}, // import Quasar plugins and add here
 

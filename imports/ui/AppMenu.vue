@@ -1,12 +1,3 @@
-<script>
-import {
-  QToolbar,
-  QBtn,
-  QAvatar,
-  QSpace
-} from 'quasar'
-</script>
-
 <template>
   <QToolbar class="bg-primary text-white">
     <QBtn
@@ -21,6 +12,7 @@ import {
       :to="{ name: 'home' }"
       label="Home"
     />
+    <t>app.name</t>
     <QSpace />
 
 
@@ -29,3 +21,14 @@ import {
     </QAvatar>
   </QToolbar>
 </template>
+<script>
+import {QToolbar,QBtn,QAvatar,QSpace} from 'quasar'
+import { User, Role, I18n } from "meteor/akyma:bk"
+
+ export default {
+   name: "App",
+   data() {
+     return { }
+   },
+ }
+</script>

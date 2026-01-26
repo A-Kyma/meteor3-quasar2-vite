@@ -18,7 +18,8 @@ shell-server@0.6.2                      # Server-side component of the `meteor s
 hot-module-replacement@0.5.4            # Update client in development without reloading the page
 
 static-html@1.4.0                       # Define static page content in .html files
-jorgenvatle:vite-bundler                
+jorgenvatle:vite-bundler   
+akyma:bk             
 
 
 
