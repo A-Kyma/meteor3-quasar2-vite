@@ -1,8 +1,10 @@
 import { Meteor } from 'meteor/meteor'
 import { createApp } from 'vue'
 import { VueMeteor } from 'vue-meteor-tracker'
+// @ts-ignore
 import {Bk,BkUI} from 'meteor/akyma:bk'
 
+// @ts-ignore
 import App from './App.vue'
 import { router } from './router'
 
