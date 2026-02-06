@@ -12,7 +12,6 @@
       :to="{ name: 'home' }"
       label="Home"
     />
-    <t>app.name</t>
     <QSpace />
 
 
@@ -22,7 +21,6 @@
   </QToolbar>
 </template>
 <script>
-import {QToolbar,QBtn,QAvatar,QSpace} from 'quasar'
 // @ts-ignore
 import { User, Role, I18n } from "meteor/akyma:bk"
 

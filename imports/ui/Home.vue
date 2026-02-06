@@ -1,11 +1,3 @@
-<script setup>
-import Hello from './Hello.vue'
-import Info from './Info.vue'
-import {
-  QIcon,
-} from 'quasar'
-</script>
-
 <template>
   <div class="q-pa-md">
     <div class="text-h4 text-bold q-mb-md">Welcome to Meteor</div>
@@ -44,7 +36,28 @@ import {
         /> Fontawesome 6 (Icon library)
       </div>
     </div>
+    <t>app.home</t>
     <Hello class="q-mt-md" />
     <Info />
+    <bk-label :model='doc' field="text" for="view" locale="fr"/>
   </div>
 </template>
+<script>
+// @ts-ignore
+import Hello from './Hello.vue';
+// @ts-ignore
+import Info from './Info.vue';
+import Doc from '../classes/Doc';
+
+export default {
+  name: 'Home', 
+  components: { Hello, Info },
+  computed: {
+    doc() {
+      const doc = new Doc();
+      return doc;
+    } 
+  }
+}   
+
+</script>

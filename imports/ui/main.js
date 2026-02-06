@@ -1,6 +1,10 @@
 import { Meteor } from 'meteor/meteor'
 import { createApp } from 'vue'
 import { VueMeteor } from 'vue-meteor-tracker'
+
+import '/imports/startup/both/index'
+import '/imports/startup/client/index'
+
 // @ts-ignore
 import {Bk,BkUI} from 'meteor/akyma:bk'
 
