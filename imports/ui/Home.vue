@@ -39,7 +39,7 @@
     <t>app.home</t>
     <Hello class="q-mt-md" />
     <Info />
-    <bk-label :model='doc' field="text" for="view" locale="fr"/>
+    <bk-label :model='doc' field="text" for="view" locale="fr"/>blabla
   </div>
 </template>
 <script>

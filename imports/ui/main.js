@@ -4,9 +4,8 @@ import { VueMeteor } from 'vue-meteor-tracker'
 
 import '/imports/startup/both/index'
 import '/imports/startup/client/index'
-
-// @ts-ignore
-import {Bk,BkUI} from 'meteor/akyma:bk'
+import {Bk, I18n, Role, Class} from 'meteor/akyma:bk'
+import BkUI from '@akyma/bk-ui'
 
 // @ts-ignore
 import App from './App.vue'
@@ -21,13 +20,13 @@ import '@quasar/extras/fontawesome-v6/fontawesome-v6.css'
 // Import Quasar css
 import 'quasar/src/css/index.sass'
 
-Meteor.startup(() => {
+
+Meteor.startup(async () => {
   const app = createApp(App)
 
   app.use(router)
   app.use(VueMeteor)
-  app.use(Bk)
-  app.use(BkUI)
+  
   app.use(Quasar, {
     plugins: {}, // import Quasar plugins and add here
 
@@ -44,5 +43,6 @@ Meteor.startup(() => {
     }
     */
   })
+  app.use(BkUI, {Bk, isClient: () => Meteor.isClient, I18n, Role, Class})
   app.mount('#app')
 })
