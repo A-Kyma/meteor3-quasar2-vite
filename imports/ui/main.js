@@ -43,6 +43,6 @@ Meteor.startup(async () => {
     }
     */
   })
-  app.use(BkUI, {Bk, isClient: () => Meteor.isClient, I18n, Role, Class})
+  app.use(BkUI, {Bk, Meteor, isClient: () => Meteor.isClient, I18n, Role, Class})
   app.mount('#app')
 })
