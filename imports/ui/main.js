@@ -1,11 +1,14 @@
 import { Meteor } from 'meteor/meteor'
 import { createApp } from 'vue'
 import { VueMeteor } from 'vue-meteor-tracker'
+import { Accounts } from 'meteor/accounts-base'
+import { EJSON } from 'meteor/ejson'
 
 import '/imports/startup/both/index'
 import '/imports/startup/client/index'
-import {Bk, I18n, Role, Class} from 'meteor/akyma:bk'
+import * as Bk from 'meteor/akyma:bk'
 import BkUI from '@akyma/bk-ui'
+import {Class, ObjectField, ListField, ScalarField, ValidationError} from "meteor/akyma:astronomy"
 
 // @ts-ignore
 import App from './App.vue'
@@ -17,8 +20,8 @@ import { Quasar } from 'quasar'
 import '@quasar/extras/material-icons/material-icons.css'
 import '@quasar/extras/fontawesome-v6/fontawesome-v6.css'
 
-// Import Quasar css
-import 'quasar/src/css/index.sass'
+// Import compiled Quasar CSS to guarantee style utilities are present in Meteor runtime.
+import 'quasar/dist/quasar.css'
 
 
 Meteor.startup(async () => {
@@ -43,6 +46,16 @@ Meteor.startup(async () => {
     }
     */
   })
-  app.use(BkUI, {Bk, Meteor, isClient: () => Meteor.isClient, I18n, Role, Class})
+  app.use(BkUI, {
+    Bk,
+    Meteor,
+    Class,
+    ObjectField,
+    ListField,
+    ScalarField,
+    ValidationError,
+    Accounts,
+    EJSON
+  })
   app.mount('#app')
 })

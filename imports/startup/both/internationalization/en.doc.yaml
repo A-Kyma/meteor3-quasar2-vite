@@ -2,3 +2,109 @@ en:
   Doc:
     text:
       label: Text
+  BkUIDemoRecord:
+    title:
+      label: Title
+    contactEmail:
+      label: Contact email
+    contactPhone:
+      label: Contact phone
+    website:
+      label: Website
+    password:
+      label: Password
+    budget:
+      label: Budget
+    attendees:
+      label: Attendees
+    progress:
+      label: Progress
+    satisfaction:
+      label: Satisfaction
+    accentColor:
+      label: Accent color
+    publishedAt:
+      label: Publication date
+    language:
+      label: Language
+    status:
+      label: Status
+    audiences:
+      label: Audiences
+    shortDescription:
+      label: Short description
+    richDescription:
+      label: Rich description
+    keywords:
+      label: Keywords
+    avatar:
+      label: Avatar
+    coverImage:
+      label: Cover image
+    owner:
+      label: Owner
+    reviewers:
+      label: Reviewers
+    address:
+      label: Address
+    tasks:
+      label: Tasks
+    palette:
+      label: Palette
+    approvalMode:
+      label: Approval mode
+  BkUIDemoAddress:
+    street:
+      label: Street
+    city:
+      label: City
+    country:
+      label: Country
+  BkUIDemoTask:
+    title:
+      label: Task title
+    isActive:
+      label: Active
+    estimate:
+      label: Estimate
+  BkUIDemoPerson:
+    name:
+      label: Name
+    email:
+      label: Email
+    phone:
+      label: Phone
+    roleLabel:
+      label: Role
+  Enum:
+    BkUIDemoStatus:
+      draft:
+        label: Draft
+      review:
+        label: In review
+      published:
+        label: Published
+    BkUIDemoAudience:
+      internal:
+        label: Internal
+      partners:
+        label: Partners
+      public:
+        label: Public
+  route:
+    home:
+      title: Home
+    bkui:
+      title: BkUI
+    form:
+      title: Form
+    table:
+      title: Table
+    components:
+      title: Components
+    parameter-tables:
+      title: Parameter tables
+    parameter-elements:
+      title: Parameter elements
+    translations:
+      title: Translations

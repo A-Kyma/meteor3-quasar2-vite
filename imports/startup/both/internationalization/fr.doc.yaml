@@ -2,3 +2,109 @@ fr:
   Doc:
     text:
       label: "Text"
+  BkUIDemoRecord:
+    title:
+      label: Titre
+    contactEmail:
+      label: Email de contact
+    contactPhone:
+      label: Téléphone de contact
+    website:
+      label: Site web
+    password:
+      label: Mot de passe
+    budget:
+      label: Budget
+    attendees:
+      label: Participants
+    progress:
+      label: Progression
+    satisfaction:
+      label: Satisfaction
+    accentColor:
+      label: Couleur d'accent
+    publishedAt:
+      label: Date de publication
+    language:
+      label: Langue
+    status:
+      label: Statut
+    audiences:
+      label: Publics
+    shortDescription:
+      label: Description courte
+    richDescription:
+      label: Description riche
+    keywords:
+      label: Mots-clés
+    avatar:
+      label: Avatar
+    coverImage:
+      label: Image de couverture
+    owner:
+      label: Responsable
+    reviewers:
+      label: Relecteurs
+    address:
+      label: Adresse
+    tasks:
+      label: Tâches
+    palette:
+      label: Palette
+    approvalMode:
+      label: Mode d'approbation
+  BkUIDemoAddress:
+    street:
+      label: Rue
+    city:
+      label: Ville
+    country:
+      label: Pays
+  BkUIDemoTask:
+    title:
+      label: Titre de tâche
+    isActive:
+      label: Active
+    estimate:
+      label: Estimation
+  BkUIDemoPerson:
+    name:
+      label: Nom
+    email:
+      label: Email
+    phone:
+      label: Téléphone
+    roleLabel:
+      label: Rôle
+  Enum:
+    BkUIDemoStatus:
+      draft:
+        label: Brouillon
+      review:
+        label: En revue
+      published:
+        label: Publié
+    BkUIDemoAudience:
+      internal:
+        label: Interne
+      partners:
+        label: Partenaires
+      public:
+        label: Public
+  route:
+    home:
+      title: Accueil
+    bkui:
+      title: BkUI
+    form:
+      title: Formulaire
+    table:
+      title: Table
+    components:
+      title: Composants
+    parameter-tables:
+      title: Tables de paramètres
+    parameter-elements:
+      title: Éléments de paramètres
+    translations:
+      title: Traductions

@@ -2,3 +2,37 @@ nl:
   Doc:
     text:
       label: "Tekst"
+  BkUIDemoRecord:
+    title:
+      label: Titel
+    status:
+      label: Status
+    progress:
+      label: Voortgang
+    approvalMode:
+      label: Goedkeuringsmodus
+  Enum:
+    BkUIDemoStatus:
+      draft:
+        label: Concept
+      review:
+        label: In review
+      published:
+        label: Gepubliceerd
+  route:
+    home:
+      title: Home
+    bkui:
+      title: BkUI
+    form:
+      title: Formulier
+    table:
+      title: Tabel
+    components:
+      title: Componenten
+    parameter-tables:
+      title: Parametertabellen
+    parameter-elements:
+      title: Parameteritems
+    translations:
+      title: Vertalingen
