@@ -29,6 +29,9 @@ export default defineConfig({
       sassVariables: 'imports/ui/custom_variables.sass'
     }),
   ],
+  build: {
+    sourcemap: true,
+  },
   optimizeDeps: {
     exclude: ['vue-meteor-tracker'],
     include: ['quasar', 'vue'],

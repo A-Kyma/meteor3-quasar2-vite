@@ -9,21 +9,21 @@
         "./*"
       ],
       "meteor/mongo": [
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/local_collection_driver.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/collection_extensions.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/collection.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/asynchronous_cursor.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/doc_fetcher.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/mongo_common.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/mongo_connection.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/mongo_driver.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/mongo_utils.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/oplog_observe_driver.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/collection_utils.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/methods_async.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/methods_index.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/methods_replication.js",
-        "/Users/arnaud/.meteor/packages/mongo/2.2.0/web.browser/collection/methods_sync.js"
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/local_collection_driver.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/collection_extensions.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/collection.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/asynchronous_cursor.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/doc_fetcher.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/mongo_common.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/mongo_connection.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/mongo_driver.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/mongo_utils.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/oplog_observe_driver.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/collection_utils.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/methods_async.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/methods_index.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/methods_replication.js",
+        "/Users/arnaud/.meteor/packages/mongo/2.3.0/web.browser/collection/methods_sync.js"
       ],
       "meteor/reactive-var": [
         "/Users/arnaud/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
@@ -36,16 +36,16 @@
         "/Users/arnaud/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
       ],
       "meteor/ecmascript": [
-        "/Users/arnaud/.meteor/packages/ecmascript/0.17.0/web.browser/ecmascript.js"
+        "/Users/arnaud/.meteor/packages/ecmascript/0.18.0/web.browser/ecmascript.js"
       ],
       "meteor/shell-server": [
         "/Users/arnaud/.meteor/packages/shell-server/0.7.0/web.browser/main.js",
         "/Users/arnaud/.meteor/packages/shell-server/0.7.0/web.browser/shell-server.js"
       ],
       "meteor/hot-module-replacement": [
-        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
-        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
-        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.6.0/web.browser/hot-api.js",
+        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.6.0/web.browser/client.js",
+        "/Users/arnaud/.meteor/packages/hot-module-replacement/0.6.0/web.browser/server.js"
       ],
       "meteor/akyma:bk": [
         "packages/akyma_bk/lib/lib.js"

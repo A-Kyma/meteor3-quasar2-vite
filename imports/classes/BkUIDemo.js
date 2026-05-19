@@ -91,7 +91,7 @@ const BkUIDemoRecord = Class.create({
   collection: BkUIDemoRecords,
   secured: false,
   fields: {
-    title: { type: String },
+    title: { type: String, description : 'Title of the demo record' },
     contactEmail: { type: Email },
     contactPhone: { type: Phone, optional: true },
     website: { type: Url, optional: true },
